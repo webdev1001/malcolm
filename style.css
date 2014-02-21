@@ -1716,15 +1716,15 @@ Media Queries
 	}
 
 	#header-menu-icon::before {
-		content: "HEADER MENU \25BC";
+		content: "HEADER MENU \2261";
 	}
 
 	#primary-menu-icon::before {
-		content: 'PRIMARY MENU \25BC';
+		content: 'PRIMARY MENU \2261';
 	}
 
 	#secondary-menu-icon::before {
-		content: 'SECONDARY MENU \25BC';
+		content: 'SECONDARY MENU \2261';
 	}
 
 	#header-menu-icon::before,
@@ -1736,15 +1736,15 @@ Media Queries
 	}
 
 	#header-menu-icon:hover::before {
-		content: "HEADER MENU \25BC";
+		content: "HEADER MENU \2261";
 	}
 
 	#primary-menu-icon:hover::before {
-		content: 'PRIMARY MENU \25BC';
+		content: 'PRIMARY MENU \2261';
 	}
 
 	#secondary-menu-icon:hover::before {
-		content: 'SECONDARY MENU \25BC';
+		content: 'SECONDARY MENU \2261';
 	}
 
 	#header-menu-icon:hover::before,
@@ -1758,15 +1758,15 @@ Media Queries
 	}
 
 	#header-menu-icon:active::before {
-		content: "HEADER MENU \25BC";
+		content: "HEADER MENU \2261";
 	}
 
 	#primary-menu-icon:active::before {
-		content: 'PRIMARY MENU \25BC';
+		content: 'PRIMARY MENU \2261';
 	}
 
 	#secondary-menu-icon:active::before {
-		content: 'SECONDARY MENU \25BC';
+		content: 'SECONDARY MENU \2261';
 	}
 
 	#header-menu-icon:active::before,
