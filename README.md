@@ -1,4 +1,7 @@
-malcolm
-=======
+# Malcolm child theme
 
-A free child theme for the Genesis framework. Released under the GNU General Public License v2.0
+Free child theme for the Genesis Framework. Coming soon.
+
+## Demo
+
+Demo link of this theme: http://demo.wpcanada.ca/malcolm/
