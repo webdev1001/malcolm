@@ -1,0 +1,92 @@
+<?php
+//* Start the engine
+include_once( get_template_directory() . '/lib/init.php' );
+
+//* Child theme (do not remove)
+define( 'CHILD_THEME_NAME', __( 'Malcolm Theme', 'malcolm' ) );
+define( 'CHILD_THEME_URL', 'http://wpcanada.ca/our-themes/malcolm' );
+define( 'CHILD_THEME_VERSION', '1.0.0' );
+
+//* Add HTML5 markup structure
+add_theme_support( 'html5' );
+
+//* Add viewport meta tag for mobile browsers
+add_theme_support( 'genesis-responsive-viewport' );
+
+//* Enqueue Google fonts
+add_action( 'wp_enqueue_scripts', 'malcolm_google_fonts' );
+function malcolm_google_fonts() {
+	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,700', array(), CHILD_THEME_VERSION );
+}
+
+/**
+ * Register and Enqueue Responsive Menu Script
+ * 
+ * @author Brad Potter
+ * 
+ * @link http://www.bradpotter.com
+ */
+function malcolm_menu_script() {
+	wp_register_script( 'responsive-menu', get_stylesheet_directory_uri() . '/js/responsivemenus.js', array('jquery'), '1.0.0', false );
+	wp_enqueue_script( 'responsive-menu' );
+
+ }
+add_action('wp_enqueue_scripts', 'malcolm_menu_script');
+
+//* Add new image sizes
+add_image_size( 'featured-page', 340, 160, TRUE );
+
+//* Add support for custom background
+add_theme_support( 'custom-background' );
+
+//* Add support for 3-column footer widgets
+add_theme_support( 'genesis-footer-widgets', 3 );
+
+//* Reposition the primary navigation
+remove_action( 'genesis_after_header', 'genesis_do_nav' );
+add_action( 'genesis_before_header', 'genesis_do_nav' );
+
+//* Add custom body class to home page
+add_filter( 'body_class', 'malcolm_hp_add_body_class' );
+function malcolm_hp_add_body_class( $classes ) {
+	if ( is_home())
+	$classes[] = 'malcolm';
+	return $classes;
+}
+
+//* Register widget areas
+genesis_register_sidebar( array(
+	'id'		=> 'slider',
+	'name'		=> __( 'Slider', 'malcolm' ),
+	'description'	=> __( 'This is the Slider section of the homepage.', 'malcolm' ),
+) );
+genesis_register_sidebar( array(
+	'id'		=> 'home-top-message',
+	'name'		=> __( 'Home Top Message', 'malcolm' ),
+	'description'	=> __( 'This is the Home Top Message section of the homepage.', 'malcolm' ),
+) );
+genesis_register_sidebar( array(
+	'id'		=> 'home-action',
+	'name'		=> __( 'Home Action', 'malcolm' ),
+	'description'	=> __( 'This is the Home Action section of the homepage.', 'malcolm' ),
+) );
+genesis_register_sidebar( array(
+	'id'		=> 'home-bottom-1',
+	'name'		=> __( 'Home Bottom 1', 'malcolm' ),
+	'description'	=> __( 'This is the Home Bottom 1 section of the homepage.', 'malcolm' ),
+) );
+genesis_register_sidebar( array(
+	'id'		=> 'home-bottom-2',
+	'name'		=> __( 'Home Bottom 2', 'malcolm' ),
+	'description'	=> __( 'This is the Home Bottom 2 section of the homepage.', 'malcolm' ),
+) );
+genesis_register_sidebar( array(
+	'id'		=> 'home-bottom-3',
+	'name'		=> __( 'Home Bottom 3', 'malcolm' ),
+	'description'	=> __( 'This is the Home Bottom 3 section of the homepage.', 'malcolm' ),
+) );
+genesis_register_sidebar( array(
+	'id'		=> 'home-bottom-message',
+	'name'		=> __( 'Home Bottom Message', 'malcolm' ),
+	'description'	=> __( 'This is the Home Bottom Message section of the homepage.', 'malcolm' ),
+) );
