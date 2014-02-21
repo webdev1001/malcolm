@@ -54,6 +54,20 @@ function malcolm_hp_add_body_class( $classes ) {
 	return $classes;
 }
 
+//* Add after post block section to single post page
+add_action( 'genesis_entry_footer', 'malcolm_after_post_block'  ); 
+function malcolm_after_post_block() {
+
+    if ( ! is_singular( 'post' ) )
+    	return;
+
+    genesis_widget_area( 'after-post-block', array(
+		'before' => '<div class="after-post-block widget-area"><div class="wrap">',
+		'after'  => '</div></div>',
+    ) );
+
+}
+
 //* Register widget areas
 genesis_register_sidebar( array(
 	'id'		=> 'slider',
@@ -89,4 +103,9 @@ genesis_register_sidebar( array(
 	'id'		=> 'home-bottom-message',
 	'name'		=> __( 'Home Bottom Message', 'malcolm' ),
 	'description'	=> __( 'This is the Home Bottom Message section of the homepage.', 'malcolm' ),
+) );
+genesis_register_sidebar( array(
+	'id'		=> 'after-post-block',
+	'name'		=> __( 'After Post Block', 'malcolm' ),
+	'description'	=> __( 'This is the After Post block section.', 'malcolm' ),
 ) );

@@ -1285,6 +1285,19 @@ html > body.malcolm .slide-excerpt-border {
 	border-bottom: 1px solid #ddd;
 }
 
+/* After Post Block
+--------------------------------------------- */
+
+.after-post-block.widget-area {
+	border: 1px solid #ddd;
+	margin-top: 40px;
+	padding: 32px;
+}
+
+.after-post-block p {
+	margin-bottom: 26px;
+}
+
 /* Comments
 --------------------------------------------- */
 
