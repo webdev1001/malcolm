@@ -1285,6 +1285,23 @@ html > body.malcolm .slide-excerpt-border {
 	border-bottom: 1px solid #ddd;
 }
 
+/* Single Post Pagination
+--------------------------------------------- */
+
+.adjacent-entry-pagination {
+	clear: both;
+	display: block;
+	font-size: 13px;
+	margin: 30px 0;
+	overflow: auto;
+	padding: 5px 0;
+}
+
+.pagination-previous.alignleft,
+.pagination-previous.alignright {
+	margin-bottom: 10px;
+}
+
 /* After Post Block
 --------------------------------------------- */
 

@@ -68,6 +68,9 @@ function malcolm_after_post_block() {
 
 }
 
+//* Add single post navigation
+add_action( 'genesis_before_comments', 'genesis_prev_next_post_nav' );
+
 //* Register widget areas
 genesis_register_sidebar( array(
 	'id'		=> 'slider',
