@@ -19,19 +19,18 @@ function malcolm_google_fonts() {
 	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,700', array(), CHILD_THEME_VERSION );
 }
 
+//* Register responsive menu script
+add_action( 'wp_enqueue_scripts', 'malcolm_enqueue_scripts' );
 /**
- * Register and Enqueue Responsive Menu Script
- * 
- * @author Brad Potter
- * 
- * @link http://www.bradpotter.com
+ * Enqueue responsive javascript
+ * @author Ozzy Rodriguez
+ * @todo Change 'prefix' to your theme's prefix
  */
-function malcolm_menu_script() {
-	wp_register_script( 'responsive-menu', get_stylesheet_directory_uri() . '/js/responsivemenus.js', array('jquery'), '1.0.0', false );
-	wp_enqueue_script( 'responsive-menu' );
+function malcolm_enqueue_scripts() {
 
- }
-add_action('wp_enqueue_scripts', 'malcolm_menu_script');
+	wp_enqueue_script( 'malcolm-responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0', true ); // Change 'prefix' to your theme's prefix
+
+}
 
 //* Add new image sizes
 add_image_size( 'featured-page', 340, 160, TRUE );
