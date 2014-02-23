@@ -655,8 +655,10 @@ img.alignright,
 --------------------------------------------- */
 
 .breadcrumb {
-	margin-bottom: 20px;
+	border-bottom: solid 1px #ddd;
+	margin: 0 auto;
 	padding: 20px 0;
+	max-width: 1160px;
 }
 
 .archive-description,
@@ -1994,6 +1996,7 @@ Media Queries
 
 @media only screen and (max-width: 1159px) {
 
+	.breadcrumb,
 	.site-inner,
 	.wrap {
 		max-width: 960px;
@@ -2083,7 +2086,8 @@ Media Queries
 		background-position: center top;
 	}
 
-	.site-inner {
+	.site-inner, 
+	.breadcrumb {
 		padding-left: 5%;
 		padding-right: 5%;
 	}

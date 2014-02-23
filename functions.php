@@ -67,6 +67,10 @@ function malcolm_after_post_block() {
 
 }
 
+//* Reposition the breadcrumbs
+remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );
+add_action( 'genesis_after_header', 'genesis_do_breadcrumbs' );
+
 //* Add single post navigation
 add_action( 'genesis_before_comments', 'genesis_prev_next_post_nav' );
 
