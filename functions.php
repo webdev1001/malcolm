@@ -34,6 +34,7 @@ function malcolm_enqueue_scripts() {
 
 //* Add new image sizes
 add_image_size( 'featured-page', 340, 160, TRUE );
+add_image_size( 'featured-post', 100, 100, TRUE );
 
 //* Add support for custom background
 add_theme_support( 'custom-background' );

@@ -833,6 +833,7 @@ Plugins
 	color: #333;
 }
 
+
 /* Genesis Latest Tweets
 --------------------------------------------- */
 
@@ -1260,6 +1261,14 @@ html > body.malcolm .slide-excerpt-border {
 	width: 29.629629629%;
 }
 
+.home-bottom-1 .entry-title,
+.home-bottom-2 .entry-title,
+.home-bottom-3 .entry-title {
+	font-size: 16px;
+	margin-bottom: 24px;
+	text-transform: uppercase;
+}
+
 .home-bottom li {
 	list-style-type: none;
 	margin-bottom: 6px;
@@ -1274,8 +1283,35 @@ html > body.malcolm .slide-excerpt-border {
 	border-bottom: none;
 }
 
+.home-bottom .featuredpost img,
 .home-bottom .featuredpage img {
 	margin: 0 0 10px;
+}
+
+.home-bottom .featuredpost img {
+	border: none;
+	padding: 0;
+}
+
+.home-bottom .featuredpost img:hover,
+.home-bottom .featuredpage img:hover {
+	filter:alpha(opacity=50);
+	opacity: .5;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition:    all 0.2s ease-in-out;
+	-ms-transition:     all 0.2s ease-in-out;
+	-o-transition:      all 0.2s ease-in-out;
+	transition:         all 0.2s ease-in-out;
+}
+
+.home-bottom .featuredpost .alignleft img {
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+.home-bottom .featuredpost .alignright img {
+	margin-bottom: 0;
+	margin-left: 20px;
 }
 
 .home-bottom .widget-title {
