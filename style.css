@@ -1741,6 +1741,13 @@ Media Queries
 	#genesis-responsive-slider {
 		display: none;
 	}
+
+	.gwat-columns.one-half,
+	.gwat-columns.one-third {
+		float: none !important;
+		width: 100% !important;
+	}
+
 }
 
 /* Responsive Navigation
