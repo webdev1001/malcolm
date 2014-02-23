@@ -1666,7 +1666,7 @@ a.button-red:hover {
 	color: #333;
 }
 
-.after-post-block input:hover[type="submit"] {
+.after-post-block .enews-widget input:hover[type="submit"] {
 	background-color: #333;
 	color: #fff;
 }
