@@ -151,20 +151,20 @@ input[type="reset"],
 input[type="submit"],
 textarea:focus,
 .button {
-	-webkit-transition: all 0.1s ease-in-out;
-	-moz-transition:    all 0.1s ease-in-out;
-	-ms-transition:     all 0.1s ease-in-out;
-	-o-transition:      all 0.1s ease-in-out;
-	transition:         all 0.1s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition:    all 0.2s ease-in-out;
+	-ms-transition:     all 0.2s ease-in-out;
+	-o-transition:      all 0.2s ease-in-out;
+	transition:         all 0.2s ease-in-out;
 }
 
 ::-moz-selection {
-	background-color: #333;
+	background-color: #4183c4;
 	color: #fff;
 }
 
 ::selection {
-	background-color: #333;
+	background-color: #4183c4;
 	color: #fff;
 }
 
@@ -703,11 +703,15 @@ img.alignright,
 
 .author-box a,
 .author-box p {
-	color: #fff;
+	color: #999;
 }
 
 .author-box a {
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px dashed #999;
+}
+
+.author-box a:hover {
+	color: #fff;
 }
 
 .author-box p {
@@ -732,7 +736,7 @@ img.alignright,
 }
 
 .entry-title a:hover {
-	color: #666;
+	color: #4183c4;
 }
 
 .widget-title {
@@ -1234,6 +1238,11 @@ html > body.malcolm .slide-excerpt-border {
 .home-action a.action-button:hover {
 	background-color: #fff;
 	color: #333;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition:    all 0.2s ease-in-out;
+	-ms-transition:     all 0.2s ease-in-out;
+	-o-transition:      all 0.2s ease-in-out;
+	transition:         all 0.2s ease-in-out;
 }
 
 .home-bottom {
@@ -1335,12 +1344,11 @@ html > body.malcolm .slide-excerpt-border {
 }
 
 .entry-content a {
-	border-bottom: 1px solid #ddd;
-	color: #3a5876;
+	color: #4183c4;
 }
 
 .entry-content a:hover {
-	color: #333;
+	color: #666;
 }
 
 .entry-content .attachment a,
@@ -1934,6 +1942,19 @@ Site Footer
 	margin-bottom: 0;
 }
 
+.site-footer,
+.site-footer a,
+.site-footer p {
+	color: #999;
+}
+
+.site-footer a {
+	border-bottom: 1px dashed #999;
+}
+
+.site-footer a:hover {
+	color: #fff;
+}
 
 /*
 Genesis Widgetized Not Found & 404
