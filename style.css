@@ -1421,7 +1421,6 @@ html > body.malcolm .slide-excerpt-border {
 .content-box-purple,
 .content-box-red,
 .content-box-yellow {
-	border-radius: 3px;
 	margin: 0 0 25px;
 	overflow: hidden;
 	padding: 20px;
@@ -1429,38 +1428,38 @@ html > body.malcolm .slide-excerpt-border {
 
 .content-box-blue {
 	background-color: #d8ecf7;
-	border: 1px solid #afcde3;
+	border-left: 10px solid #afcde3;
 }
 
 .content-box-dark {
 	background-color: #555;
-	border: 1px solid #000;
+	border-left: 10px solid #000;
 	color: #fff;
 }
 
 .content-box-gray {
 	background-color: #e2e2e2;
-	border: 1px solid #bdbdbd;
+	border-left: 10px solid #bdbdbd;
 }
 
 .content-box-green {
 	background-color: #d9edc2;
-	border: 1px solid #b2ce96;
+	border-left: 10px solid #b2ce96;
 }
 
 .content-box-purple {
 	background-color: #e2e2f9;
-	border: 1px solid #bebde9;
+	border-left: 10px solid #bebde9;
 }
 
 .content-box-red {
 	background-color: #f9dbdb;
-	border: 1px solid #e9b3b3;
+	border-left: 10px solid #e9b3b3;
 }
 
 .content-box-yellow {
 	background-color: #fef5c4;
-	border: 1px solid #fadf98;
+	border-left: 10px solid #fadf98;
 }
 
 /* Gradient Buttons
