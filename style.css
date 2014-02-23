@@ -1141,6 +1141,10 @@ Content Area
 --------------------------------------------- */
 
 .slider {
+	background-color: #4183c4;
+	-webkit-box-shadow: 0 8px 6px -6px #336696;
+	   -moz-box-shadow: 0 8px 6px -6px #336696;
+	        box-shadow: 0 8px 6px -6px #336696;
 }
 
 .slider .wrap {
@@ -1149,6 +1153,7 @@ Content Area
 }
 
 .malcolm #genesis-responsive-slider  {
+	background-color: transparent;
 	border: none;
 	margin: 0 auto;
 	padding: 0;
@@ -1215,6 +1220,11 @@ html > body.malcolm .slide-excerpt-border {
 	-ms-transition: none;
 	-o-transition:
 	transition: none;
+}
+
+.flexslider,
+.flexslider .slides img {
+	border-radius: 20px;
 }
 
 .home-top-message {
