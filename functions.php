@@ -71,6 +71,15 @@ function malcolm_after_post_block() {
 remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );
 add_action( 'genesis_after_header', 'genesis_do_breadcrumbs' );
 
+//* Add wrapper to breadcrumbs
+add_filter( 'genesis_breadcrumb_args', 'malcolm_breadcrumb_args' );
+function malcolm_breadcrumb_args( $args ) {
+	$args['prefix'] = '<div class="breadcrumbwrapper"><div class="breadcrumb">';
+	$args['suffix'] = '</div></div>';
+	$args['sep'] = ' &raquo; ';
+    return $args;
+}
+
 //* Add single post navigation
 add_action( 'genesis_before_comments', 'genesis_prev_next_post_nav' );
 
