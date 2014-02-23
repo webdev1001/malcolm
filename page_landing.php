@@ -33,7 +33,7 @@ remove_action( 'genesis_before_header', 'genesis_do_nav' );
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );
 
 //* Remove breadcrumbs
-remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );
+remove_action( 'genesis_after_header', 'genesis_do_breadcrumbs' );
 
 //* Remove site footer widgets
 remove_action( 'genesis_before_footer', 'genesis_footer_widget_areas' );
