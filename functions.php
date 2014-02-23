@@ -84,6 +84,16 @@ function malcolm_breadcrumb_args( $args ) {
 //* Add single post navigation
 add_action( 'genesis_before_comments', 'genesis_prev_next_post_nav' );
 
+//* Modify comment form
+add_filter( 'comment_form_defaults', 'malcolm_comment_form_defaults' );
+function malcolm_comment_form_defaults( $defaults ) {
+
+	$defaults['title_reply'] = __( 'Join the discussion!' );
+	$defaults['comment_notes_after'] = '<p class="comment-box">' . __( 'Thanks for your feedback!' );
+	return $defaults;
+ 
+}
+
 //* Register widget areas
 genesis_register_sidebar( array(
 	'id'		=> 'slider',
