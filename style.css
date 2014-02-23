@@ -1541,6 +1541,50 @@ Site Footer
 
 
 /*
+Genesis Widgetized Not Found & 404
+---------------------------------------------------------------------------------------------------- */
+
+.error404 .content .widget-area,
+.search-no-results .content .widget-area {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 40px;
+	padding: 40px 0 24px;
+}
+
+.error404 .content ol,
+.error404 .content ul,
+.search-no-results .content ol,
+.search-no-results .content ul,
+.error404 .content .widget-area p,
+.search-no-results .content .widget-area p {
+	margin-bottom: 26px;
+}
+
+.error404 .content ol,
+.error404 .content ul,
+.search-no-results .content ol,
+.search-no-results .content ul {
+	margin-left: 40px;
+}
+
+.error404 .content ol li,
+.search-no-results .content ol li {
+	list-style-type: decimal;
+}
+
+.error404 .content ul li,
+.search-no-results .content ul li {
+	list-style-type: disc;
+}
+
+.error404 .content ol ol,
+.error404 .content ul ul,
+.search-no-results .content  ol ol,
+.search-no-results .content  ul ul {
+	margin-bottom: 0;
+}
+
+/*
 Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
