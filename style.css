@@ -1782,6 +1782,15 @@ Sidebars
 	padding: 40px;
 }
 
+.sidebar .widget.enews-widget .widget-title {
+	background-color: transparent;
+	color: #fff;
+}
+
+.sidebar .widget.enews-widget input:hover[type="submit"] {
+	background-color: #fff;
+	color: #333;
+}
 
 /*
 Footer Widgets
@@ -1950,6 +1959,20 @@ Widget Page
 
 .malcolm-widget-page .entry {
 	border-bottom: 0;
+}
+
+.malcolm-widget-page .widget.enews-widget {
+	border: 1px solid #ddd;
+	padding: 40px;
+}
+
+.malcolm-widget-page .enews-widget .widget-title {
+	color: #333;
+}
+
+.malcolm-widget-page .enews-widget input:hover[type="submit"] {
+	background-color: #333;
+	color: #fff;
 }
 
 
