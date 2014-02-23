@@ -1,11 +1,15 @@
 <?php
 /**
- * This file adds the Home Page to the Malcolm Theme.
+ * This file adds the Front Page to the Malcolm Theme.
  *
  * @author WPCanada
  * @package Malcolm
  * @subpackage Customizations
  */
+
+/*
+Template Name: Front
+*/
 
 add_action( 'genesis_meta', 'malcolm_home_genesis_meta' );
 /**
