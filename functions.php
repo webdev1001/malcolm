@@ -111,3 +111,8 @@ genesis_register_sidebar( array(
 	'name'		=> __( 'After Post Block', 'malcolm' ),
 	'description'	=> __( 'This is the After Post block section.', 'malcolm' ),
 ) );
+genesis_register_sidebar( array(
+	'id'		=> 'widget-page',
+	'name'		=> __( 'Widget Page', 'malcolm' ),
+	'description'	=> __( 'This is the Widget Page template.', 'malcolm' ),
+) );

@@ -726,6 +726,20 @@ Widgets
 	border: none;
 }
 
+.featuredpost img {
+	border: 1px solid #ddd;
+	padding: 4px;
+}
+
+.featuredpost .alignleft img {
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+.featuredpost .alignright img {
+	margin-bottom: 0;
+	margin-left: 20px;
+}
 
 /*
 Plugins
@@ -1601,6 +1615,45 @@ Genesis Widgetized Not Found & 404
 .search-no-results .content  ul ul {
 	margin-bottom: 0;
 }
+
+/*
+Widget Page
+---------------------------------------------------------------------------------------------------- */
+
+.malcolm-widget-page .content .widget {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 40px;
+	padding: 40px 0 24px;
+}
+
+.malcolm-widget-page .content ol,
+.malcolm-widget-page .content ul,
+.malcolm-widget-page .content .widget p {
+	margin-bottom: 26px;
+}
+
+.malcolm-widget-page  .content ol,
+.malcolm-widget-page .content ul {
+	margin-left: 40px;
+}
+
+.malcolm-widget-page .content ol li {
+	list-style-type: decimal;
+}
+
+.malcolm-widget-page .content ul li {
+	list-style-type: disc;
+}
+
+.malcolm-widget-page .content  ol ol,
+.malcolm-widget-page .content  ul ul {
+	margin-bottom: 0;
+}
+
+.malcolm-widget-page .entry {
+	border-bottom: 0;
+}
+
 
 /*
 Media Queries
