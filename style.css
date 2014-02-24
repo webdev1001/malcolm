@@ -2286,7 +2286,8 @@ Media Queries
 		width: 100%;
 	}
 
-	#genesis-responsive-slider {
+	#genesis-responsive-slider,
+	.slider {
 		display: none;
 	}
 
