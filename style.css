@@ -1102,8 +1102,28 @@ Site Navigation
 	margin-left: 48px;
 }
 
+.genesis-nav-menu > .rss a::before {
+	color: #999;
+	content: "\f303";
+	display: inline-block;
+	font: normal 20px/1 'dashicons';
+	margin-right: 5px;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+}
+
 .genesis-nav-menu > .search {
 	padding: 14px 0 0;
+}
+
+.genesis-nav-menu > .twitter::before {
+	color: #999;
+	content: "\f301";
+	display: inline-block;
+	font: normal 20px/1 'dashicons';
+	margin-right: 5px;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
 }
 
 /* Site Header Navigation
@@ -1441,7 +1461,7 @@ html > body.malcolm .slide-excerpt-border {
 	color: #999; 
 	display: inline-block;
 	font: normal 20px/1 'dashicons';
-	margin-right: 10px;
+	margin-right: 5px;
 	vertical-align: top;
 	-webkit-font-smoothing: antialiased;
 }
