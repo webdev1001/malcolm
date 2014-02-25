@@ -19,6 +19,12 @@ function malcolm_google_fonts() {
 	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,700', array(), CHILD_THEME_VERSION );
 }
 
+//* Enqueue the Dashicons script
+add_action( 'wp_enqueue_scripts', 'malcolm_enqueue_dashicons' );
+function malcolm_enqueue_dashicons() {
+	wp_enqueue_style( 'malcolm-dashicons-style', get_stylesheet_directory_uri(), array('dashicons'), '1.0' );
+}
+
 //* Register responsive menu script
 add_action( 'wp_enqueue_scripts', 'malcolm_enqueue_scripts' );
 /**
@@ -83,6 +89,14 @@ function malcolm_breadcrumb_args( $args ) {
 
 //* Add single post navigation
 add_action( 'genesis_before_comments', 'genesis_prev_next_post_nav' );
+
+//* Customize the post info function
+add_filter( 'genesis_post_info', 'post_info_filter' );
+function post_info_filter( $post_info ) {
+if ( !is_page() ) {
+	$post_info = '[post_date] [post_author_link] [post_comments] [post_edit]';
+	return $post_info;
+}}
 
 //* Register widget areas
 genesis_register_sidebar( array(

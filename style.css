@@ -206,11 +206,13 @@ blockquote {
 }
 
 blockquote::before {
-	content: "\201C";
+	color: #999;
+	content: "\f122";
 	display: block;
+	font-family: "dashicons";
 	font-size: 30px;
 	height: 0;
-	left: -20px;
+	left: -40px;
 	position: relative;
 	top: -10px;
 }
@@ -671,8 +673,8 @@ img.alignright,
 
 .breadcrumb {
 	margin: 0 auto;
-	padding: 20px 0;
 	max-width: 1160px;
+	padding: 20px 0;
 }
 
 .breadcrumb,
@@ -690,8 +692,8 @@ img.alignright,
 }
 
 .archive-description {
-	padding: 32px;
 	border: 1px solid #ddd;
+	padding: 32px;
 }
 
 .author-box {
@@ -1029,13 +1031,13 @@ Site Navigation
 }
 
 .genesis-nav-menu .sub-menu {
-	left: -9999px;
-	opacity: 0;
-	position: absolute;
 	-webkit-transition: opacity .4s ease-in-out;
 	-moz-transition:    opacity .4s ease-in-out;
 	-ms-transition:     opacity .4s ease-in-out;
 	-o-transition:      opacity .4s ease-in-out;
+	left: -9999px;
+	opacity: 0;
+	position: absolute;
 	transition:         opacity .4s ease-in-out;
 	width: 200px;
 	z-index: 99;
@@ -1168,7 +1170,8 @@ Content Area
 }
 
 .malcolm .slide-excerpt {
-	background-color: #333;border-radius: 0 20px 0 0;
+	background-color: #333;
+	border-radius: 0 20px 0 0;
 	margin: 0;
 	padding: 0 3px;
 }
@@ -1234,7 +1237,6 @@ html > body.malcolm .slide-excerpt-border {
 }
 
 .home-action {
-	/*background-color: #ddd;*/
 	background-color: #4183c4;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4183c4), to(#2E5D89));
 	background-image: -webkit-linear-gradient(top, #4183c4, #2E5D89); 
@@ -1243,8 +1245,7 @@ html > body.malcolm .slide-excerpt-border {
 	background-image:      -o-linear-gradient(top, #4183c4, #2E5D89);
 	border-bottom: 1px solid #274F72;
 	border-top: 1px solid #274F72;
- 
-	clear: both;
+ 	clear: both;
 	margin: 0;
 	padding: 40px 0 40px;
 }
@@ -1252,14 +1253,14 @@ html > body.malcolm .slide-excerpt-border {
 .home-action,
 .home-action a,
 .home-action .widget-title {
-color: #fff;
+	color: #fff;
 }
 
 .home-action a.action-button {
 	background-color: #333;
-	display: block;
 	border-radius: 3px;
 	color: #fff;
+	display: block;
 	margin: 0;
 	padding: 16px 24px;
 	text-align: center;
@@ -1279,8 +1280,8 @@ color: #fff;
 .home-bottom {
 	clear: both;
 	margin: 0 auto 0;
-	padding: 40px 0 0;
 	overflow: hidden;
+	padding: 40px 0 0;
 }
 
 .home-bottom .wrap {
@@ -1432,9 +1433,43 @@ color: #fff;
 	padding: 20px 0;
 }
 
+.entry-author::before,
+.entry-categories::before,
+.entry-comments-link::before,
+.entry-tags::before,
+.entry-time::before {
+	color: #999; 
+	display: inline-block;
+	font: normal 20px/1 'dashicons';
+	margin-right: 10px;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+}
+
+.entry-author,
+.entry-categories,
+.entry-time {
+	padding-right: 15px;
+}
+
+.entry-author::before {
+	content: "\f110";
+}
+
+.entry-categories::before {
+	content: "\f318";
+}
+
 .entry-comments-link::before {
-	content: "\2014";
-	margin: 0 6px 0 2px;
+	content: "\f101";
+}
+
+.entry-tags::before {
+	content: "\f323";
+}
+
+.entry-time::before {
+	content: "\f145";
 }
 
 .entry-categories,
@@ -1894,15 +1929,14 @@ Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-	/*background-color: #333;*/
 	background-color: #111; 
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#191919), to(#111111));
 	background-image: -webkit-linear-gradient(top, #191919, #111111); 
 	background-image:    -moz-linear-gradient(top, #191919, #111111);
 	background-image:     -ms-linear-gradient(top, #191919, #111111);
 	background-image:      -o-linear-gradient(top, #191919, #111111);
-	color: #999;
 	clear: both;
+	color: #999;
 	padding: 40px 0 24px;
 }
 
@@ -1957,7 +1991,6 @@ Site Footer
 ---------------------------------------------------------------------------------------------------- */
 
 .site-footer {
-	/*background-color: #2a2a2a;*/
 	background-color: #1b1b1b; 
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1f1f1f), to(#1b1b1b));
 	background-image: -webkit-linear-gradient(top, #1f1f1f, #1b1b1b); 
