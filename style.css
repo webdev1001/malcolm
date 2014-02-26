@@ -1211,7 +1211,7 @@ Content Area
 
 .malcolm .slide-excerpt {
 	background-color: #1b1b1b;
-	border-radius: 0 20px 0 0;
+	border-radius: 0 20px 0 20px;
 	margin: 0;
 	padding: 0 3px;
 }
@@ -1254,7 +1254,7 @@ html > body.malcolm .slide-excerpt-border {
 }
 
 .malcolm #genesis-responsive-slider p {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .malcolm #genesis-responsive-slider li a {
