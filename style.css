@@ -1255,6 +1255,10 @@ html > body.malcolm .slide-excerpt-border {
 	border-radius: 20px;
 }
 
+.malcolm .flex-control-nav li a {	 
+	background: url(images/bg_control_nav.png) no-repeat 0 0;
+}
+
 .home-top-message {
 	clear: both;
 	margin: 0;
