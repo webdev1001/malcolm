@@ -1144,7 +1144,13 @@ Site Navigation
 --------------------------------------------- */
 
 .nav-primary {
-	border-bottom: 1px solid #ddd;
+	background-color: #e2e2e2;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#efefef), to(#e2e2e2));
+	background-image: -webkit-linear-gradient(top, #efefef, #e2e2e2); 
+	background-image:    -moz-linear-gradient(top, #efefef, #e2e2e2);
+	background-image:     -ms-linear-gradient(top, #efefef, #e2e2e2);
+	background-image:      -o-linear-gradient(top, #efefef, #e2e2e2);
+	border-bottom: 1px solid #bbb;
 	border-top: 1px solid #ddd;
 }
 
@@ -1152,8 +1158,14 @@ Site Navigation
 --------------------------------------------- */
 
 .nav-secondary {
+	background-color: #e2e2e2;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2e2e2), to(#efefef));
+	background-image: -webkit-linear-gradient(top, #e2e2e2, #efefef); 
+	background-image:    -moz-linear-gradient(top, #e2e2e2, #efefef);
+	background-image:     -ms-linear-gradient(top, #e2e2e2, #efefef);
+	background-image:      -o-linear-gradient(top, #e2e2e2, #efefef);
 	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #bbb;
 }
 
 
@@ -1165,12 +1177,13 @@ Content Area
 --------------------------------------------- */
 
 .slider {
-	background-color: #1b1b1b; 
+	background-color: #1b1b1b;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1f1f1f), to(#1b1b1b));
 	background-image: -webkit-linear-gradient(top, #1f1f1f, #1b1b1b); 
 	background-image:    -moz-linear-gradient(top, #1f1f1f, #1b1b1b);
 	background-image:     -ms-linear-gradient(top, #1f1f1f, #1b1b1b);
 	background-image:      -o-linear-gradient(top, #1f1f1f, #1b1b1b);
+	margin-bottom: 40px;
 	-webkit-box-shadow: 0 8px 6px -6px #000;
 	   -moz-box-shadow: 0 8px 6px -6px #000;
 	        box-shadow: 0 8px 6px -6px #000;
@@ -1263,7 +1276,7 @@ html > body.malcolm .slide-excerpt-border {
 
 .home-top-message {
 	clear: both;
-	margin: 0;
+	margin-bottom: 40px;
 	padding: 40px 0 0;
 }
 
@@ -1277,8 +1290,10 @@ html > body.malcolm .slide-excerpt-border {
 	border-bottom: 1px solid #274F72;
 	border-top: 1px solid #274F72;
  	clear: both;
-	margin: 0;
-	padding: 40px 0 40px;
+	font-size: 18px;
+	margin-bottom: 40px;
+	overflow: hidden;
+	padding: 50px 0 40px;
 }
 
 .home-action,
@@ -1287,13 +1302,18 @@ html > body.malcolm .slide-excerpt-border {
 	color: #fff;
 }
 
+.home-action .widget-title {
+	font-size: 20px;
+}
+
 .home-action a.action-button {
 	background-color: #333;
 	border-radius: 3px;
 	color: #fff;
 	display: block;
-	margin: 0;
-	padding: 16px 24px;
+	line-height: 1;
+	margin-top: -40px;
+	padding: 20px 24px;
 	text-align: center;
 	width: 100%;
 }
@@ -1394,7 +1414,7 @@ html > body.malcolm .slide-excerpt-border {
 
 .home-bottom-message {
 	clear: both;
-	margin: 0;
+	margin-bottom: 40px;
 	padding: 20px 0 0;
 }
 
