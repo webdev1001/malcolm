@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Malcolm\n"
+"POT-Creation-Date: 2014-02-26 08:27-0600\n"
+"PO-Revision-Date: 2014-02-26 08:27-0600\n"
+"Last-Translator: Len Kutchma <lkutchma@gmail.com>\n"
+"Language-Team: WPCanada <lkutchma@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../functions.php:9
+msgid "Malcolm Theme"
+msgstr ""
+
+#: ../../functions.php:121
+msgid "Slider"
+msgstr ""
+
+#: ../../functions.php:122
+msgid "This is the Slider section of the homepage."
+msgstr ""
+
+#: ../../functions.php:126
+msgid "Home Top Message"
+msgstr ""
+
+#: ../../functions.php:127
+msgid "This is the Home Top Message section of the homepage."
+msgstr ""
+
+#: ../../functions.php:131
+msgid "Home Action"
+msgstr ""
+
+#: ../../functions.php:132
+msgid "This is the Home Action section of the homepage."
+msgstr ""
+
+#: ../../functions.php:136
+msgid "Home Bottom 1"
+msgstr ""
+
+#: ../../functions.php:137
+msgid "This is the Home Bottom 1 section of the homepage."
+msgstr ""
+
+#: ../../functions.php:141
+msgid "Home Bottom 2"
+msgstr ""
+
+#: ../../functions.php:142
+msgid "This is the Home Bottom 2 section of the homepage."
+msgstr ""
+
+#: ../../functions.php:146
+msgid "Home Bottom 3"
+msgstr ""
+
+#: ../../functions.php:147
+msgid "This is the Home Bottom 3 section of the homepage."
+msgstr ""
+
+#: ../../functions.php:151
+msgid "Home Bottom Message"
+msgstr ""
+
+#: ../../functions.php:152
+msgid "This is the Home Bottom Message section of the homepage."
+msgstr ""
+
+#: ../../functions.php:156
+msgid "Before Post Block"
+msgstr ""
+
+#: ../../functions.php:157
+msgid "This is the Before Post block section."
+msgstr ""
+
+#: ../../functions.php:161
+msgid "After Post Block"
+msgstr ""
+
+#: ../../functions.php:162
+msgid "This is the After Post block section."
+msgstr ""
+
+#: ../../functions.php:166
+msgid "Widget Page"
+msgstr ""
+
+#: ../../functions.php:167
+msgid "This is the Widget Page template."
+msgstr ""
