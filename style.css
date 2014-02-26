@@ -679,11 +679,11 @@ img.alignright,
 
 .breadcrumb,
 .breadcrumb a {
-	color: #999;
+	color: #fff;
 }
 
 .breadcrumb a:hover {
-	color: #fff;
+	color: #999;
 }
 
 .archive-description,
@@ -710,15 +710,16 @@ img.alignright,
 
 .author-box a,
 .author-box p {
-	color: #999;
+	color: #fff;
 }
 
 .author-box a {
-	border-bottom: 1px dashed #999;
+	border-bottom: 1px dashed #fff;
 }
 
 .author-box a:hover {
-	color: #fff;
+	border-bottom: 1px dashed #999;
+	color: #999;
 }
 
 .author-box p {
@@ -814,7 +815,7 @@ Plugins
 --------------------------------------------- */
 
 .enews-widget {
-	color: #999;
+	color: #fff;
 }
 
 .enews-widget #subbox,
@@ -856,7 +857,7 @@ Plugins
 
 .enews-widget input:hover[type="submit"] {
 	background-color: #fff;
-	color: #333;
+	color: #666;
 }
 
 
@@ -917,7 +918,7 @@ Site Header
 .title-area {
 	float: left;
 	font-family: 'Oswald', arial, serif;
-	font-weight: 500;
+	font-weight: 400;
 	padding: 16px 0;
 	width: 320px;
 }
@@ -928,7 +929,7 @@ Site Header
 
 .site-title {
 	font-size: 38px;
-	font-weight: 500;
+	font-weight: 400;
 	line-height: 1;
 	margin: 0 0 10px;
 	text-transform: uppercase;
@@ -942,7 +943,7 @@ Site Header
 .site-description {
 	color: #777;
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1;
 	margin-bottom: 0;
 }
@@ -1002,7 +1003,7 @@ Site Navigation
 
 .genesis-nav-menu {
 	clear: both;
-	color: #000;
+	color: #999;
 	line-height: 1.5;
 	width: 100%;
 }
@@ -1014,7 +1015,7 @@ Site Navigation
 
 .genesis-nav-menu a {
 	border: none;
-	color: #000;
+	color: #999;
 	display: block;
 	padding: 28px 24px;
 	position: relative;
@@ -1022,7 +1023,7 @@ Site Navigation
 
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a {
-	background-color: #4183c4;
+	background-color: #333;
 	color: #fff;
 }
 
@@ -1055,7 +1056,7 @@ Site Navigation
 
 .genesis-nav-menu .sub-menu a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a {
-	background-color: #4183c4;
+	background-color: #333;
 	color: #fff;
 }
 
@@ -1095,14 +1096,15 @@ Site Navigation
 
 .genesis-nav-menu > .right > a:hover {
 	background-color: transparent;
-	color: #999;
+	color: #333;
 }
 
 .genesis-nav-menu > .rss > a {
 	margin-left: 48px;
 }
 
-.genesis-nav-menu > .rss a::before {
+.genesis-nav-menu > .rss a::before,
+.genesis-nav-menu > .twitter::before {
 	color: #999;
 	content: "\f303";
 	display: inline-block;
@@ -1112,19 +1114,19 @@ Site Navigation
 	-webkit-font-smoothing: antialiased;
 }
 
+.genesis-nav-menu > .twitter::before {
+	content: "\f301";
+}
+
+.genesis-nav-menu > .rss a:hover::before,
+.genesis-nav-menu > .twitter:hover::before {
+	color: #333;
+}
+
 .genesis-nav-menu > .search {
 	padding: 14px 0 0;
 }
 
-.genesis-nav-menu > .twitter::before {
-	color: #999;
-	content: "\f301";
-	display: inline-block;
-	font: normal 20px/1 'dashicons';
-	margin-right: 5px;
-	vertical-align: top;
-	-webkit-font-smoothing: antialiased;
-}
 
 /* Site Header Navigation
 --------------------------------------------- */
@@ -1409,7 +1411,7 @@ html > body.malcolm .slide-excerpt-border {
 }
 
 .entry-content a:hover {
-	color: #666;
+	color: #999;
 }
 
 .entry-content .attachment a,
@@ -1447,7 +1449,7 @@ html > body.malcolm .slide-excerpt-border {
 }
 
 .entry-meta {
-	color: #999;
+	color: #666;
 	font-size: 14px;
 }
 
@@ -1457,7 +1459,7 @@ html > body.malcolm .slide-excerpt-border {
 
 .entry-footer .entry-meta {
 	border-top: 1px solid #ddd;
-	color: #000;
+	color: #666;
 	margin: 0;
 	padding: 20px 0;
 }
@@ -1467,7 +1469,7 @@ html > body.malcolm .slide-excerpt-border {
 .entry-comments-link::before,
 .entry-tags::before,
 .entry-time::before {
-	color: #999; 
+	color: #666; 
 	display: inline-block;
 	font: normal 20px/1 'dashicons';
 	margin-right: 5px;
@@ -1796,10 +1798,18 @@ a.button-red:hover {
 .adjacent-entry-pagination {
 	clear: both;
 	display: block;
-	font-size: 13px;
+	font-size: 14px;
 	margin: 30px 0;
 	overflow: auto;
 	padding: 5px 0;
+}
+
+.adjacent-entry-pagination a {
+	color: #4183c4;
+}
+
+.adjacent-entry-pagination a:hover {
+	color: #666;
 }
 
 .pagination-previous.alignleft,
@@ -2491,6 +2501,6 @@ nav {
 	.genesis-nav-menu .sub-menu .sub-menu .sub-menu a:hover,
 	.genesis-nav-menu .sub-menu .sub-menu .current-menu-item > a ,
 	.genesis-nav-menu .sub-menu .sub-menu .sub-menu .current-menu-item > a {
-		background-color: #4183c4 !important;
+		background-color: #333 !important;
 	}
 }
