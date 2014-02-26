@@ -1456,7 +1456,7 @@ html > body.malcolm .slide-excerpt-border {
 }
 
 .entry-content ul li {
-	list-style-type: disc;
+	list-style-type: circle;
 }
 
 .entry-content ol ol,
@@ -1540,7 +1540,7 @@ html > body.malcolm .slide-excerpt-border {
 .content-box-yellow {
 	margin: 0 0 25px;
 	overflow: hidden;
-	padding: 20px;
+	padding: 30px;
 }
 
 .content-box-blue {
@@ -2119,7 +2119,7 @@ Genesis Widgetized Not Found & 404
 
 .error404 .content ul li,
 .search-no-results .content ul li {
-	list-style-type: disc;
+	list-style-type: circle;
 }
 
 .error404 .content ol ol,
@@ -2155,7 +2155,7 @@ Widget Page
 }
 
 .malcolm-widget-page .content ul li {
-	list-style-type: disc;
+	list-style-type: circle;
 }
 
 .malcolm-widget-page .content  ol ol,
