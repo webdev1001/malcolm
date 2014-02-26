@@ -1837,24 +1837,28 @@ a.button-red:hover {
 	margin-bottom: 10px;
 }
 
-/* After Post Block
+/* After Post Block - Before Post Block
 --------------------------------------------- */
 
-.after-post-block.widget-area {
+.after-post-block.widget-area,
+.before-post-block.widget-area {
 	border: 1px solid #ddd;
-	margin-top: 40px;
+	margin: 40px 0 40px;
 	padding: 32px;
 }
 
-.after-post-block p {
+.after-post-block p,
+.before-post-block p {
 	margin-bottom: 26px;
 }
 
-.after-post-block .enews-widget .widget-title {
+.after-post-block .enews-widget .widget-title,
+.before-post-block .enews-widget .widget-title {
 	color: #333;
 }
 
-.after-post-block .enews-widget input:hover[type="submit"] {
+.after-post-block .enews-widget input:hover[type="submit"],
+.before-post-block .enews-widget input:hover[type="submit"] {
 	background-color: #333;
 	color: #fff;
 }
