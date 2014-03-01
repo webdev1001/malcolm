@@ -419,6 +419,11 @@ td {
 	padding: 6px 0;
 }
 
+tr.even:hover,
+tr.odd:hover {
+	background-color: #f5f5f5;
+}
+
 
 /*
 Structure and Layout
