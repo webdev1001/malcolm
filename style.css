@@ -137,6 +137,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.625;
+  	padding-top: 82px;
 }
 
 body.malcolm-landing {
@@ -1148,6 +1149,10 @@ Site Navigation
 	background-color: #333;
 	border-bottom: 1px solid #bbb;
 	border-top: 1px solid #ddd;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2000;
 }
 
 /* Secondary Navigation
@@ -2228,6 +2233,10 @@ Media Queries
 		width: 300px;
 	}
 
+	.genesis-nav-menu li.right {
+		display: none;
+	}
+
 }
 
 @media only screen and (max-width: 1023px) {
@@ -2336,7 +2345,7 @@ Media Queries
 	}
 
 	.genesis-nav-menu li.right {
-		display: none;
+		/*display: none;*/
 	}
 
 	.entry-footer .entry-meta {
@@ -2391,6 +2400,15 @@ Media Queries
 	}
 
 }
+
+@media only screen and (max-width: 767px) {
+
+	body {
+		padding-top: 0;
+	}
+
+}
+
 
 /* Responsive Navigation
 ---------------------------------------------------------------------------------------------------- */
@@ -2474,7 +2492,8 @@ nav {
 		content: "-";
 	}
 
-	nav {
+	nav, 
+	.nav-primary {
 		display: none;
 		position: relative;
 	}
