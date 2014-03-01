@@ -23,9 +23,21 @@ function malcolm_home_genesis_meta() {
 		remove_action( 'genesis_loop', 'genesis_do_loop' );
 		add_action( 'genesis_after_header', 'malcolm_home_loop_helper_top' );
 		add_action( 'genesis_after_header', 'malcolm_home_loop_helper_bottom' );
+		add_filter( 'body_class', 'malcolm_body_class' );
 		add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 
 	}
+}
+
+/**
+ * Add custom body class to front page
+ *
+ */
+function malcolm_body_class( $classes ) {
+
+	$classes[] = 'malcolm-frontpage';
+	return $classes;
+	
 }
 
 /**

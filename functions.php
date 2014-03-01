@@ -45,14 +45,6 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 remove_action( 'genesis_after_header', 'genesis_do_nav' );
 add_action( 'genesis_before_header', 'genesis_do_nav' );
 
-//* Add custom body class to home page
-add_filter( 'body_class', 'malcolm_hp_add_body_class' );
-function malcolm_hp_add_body_class( $classes ) {
-	if ( is_home())
-	$classes[] = 'malcolm';
-	return $classes;
-}
-
 //* Add before post block section to single post page
 add_action( 'genesis_before_entry', 'malcolm_before_post_block'  ); 
 function malcolm_before_post_block() {
