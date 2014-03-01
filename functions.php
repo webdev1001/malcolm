@@ -25,7 +25,7 @@ add_action( 'wp_enqueue_scripts', 'malcolm_enqueue_scripts' );
  */
 function malcolm_enqueue_scripts() {
 
-	wp_enqueue_script( 'malcolm-responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0', true ); // Change 'prefix' to your theme's prefix
+	wp_enqueue_script( 'malcolm-responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0', true );
 	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,700', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'malcolm-dashicons-style', get_stylesheet_directory_uri(), array('dashicons'), '1.0' );
 
