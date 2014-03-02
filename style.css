@@ -355,7 +355,8 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button,
-.entry-content .button {
+.entry-content .button,
+.home-bottom .more-link {
 	background-color: #333;
 	border: none;
 	box-shadow: none;
@@ -1341,6 +1342,21 @@ html > body.malcolm-frontpage .slide-excerpt-border {
 	clear: both;
 	margin: 0 auto;
 	width: 1160px;
+}
+
+.home-bottom .more-link {
+	background-color: #4183c4;
+	display: block;
+	font-size: 14px;
+	margin: 20px auto 0;
+	padding: 15px 18px;
+	text-align: center;
+	width: auto;
+}
+
+.home-bottom .more-link:hover {
+	background-color: #333;
+	color: #fff;
 }
 
 .home-bottom-1,
