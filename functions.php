@@ -129,9 +129,14 @@ genesis_register_sidebar( array(
 	'description'	=> __( 'This is the Home Bottom 3 section of the homepage.', 'malcolm' ),
 ) );
 genesis_register_sidebar( array(
-	'id'		=> 'home-bottom-message',
-	'name'		=> __( 'Home Bottom Message', 'malcolm' ),
-	'description'	=> __( 'This is the Home Bottom Message section of the homepage.', 'malcolm' ),
+	'id'		=> 'pre-footer-1',
+	'name'		=> __( 'Pre Footer 1', 'malcolm' ),
+	'description'	=> __( 'This is the Pre Footer 1 section of the homepage.', 'malcolm' ),
+) );
+genesis_register_sidebar( array(
+	'id'		=> 'pre-footer-2',
+	'name'		=> __( 'Pre Footer 2', 'malcolm' ),
+	'description'	=> __( 'This is the Pre Footer 2 section of the homepage.', 'malcolm' ),
 ) );
 genesis_register_sidebar( array(
 	'id'		=> 'before-post-block',

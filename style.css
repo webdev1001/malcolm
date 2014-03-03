@@ -1278,6 +1278,11 @@ html > body.malcolm-frontpage .slide-excerpt-border {
 	background: url(images/bg_control_nav.png) no-repeat 0 0;
 }
 
+.malcolm-frontpage .enews-widget,
+.malcolm-frontpage .enews-widget .widget-title {
+	color: #333;
+}
+
 .home-top-message {
 	clear: both;
 	margin-bottom: 40px;
@@ -1334,7 +1339,7 @@ html > body.malcolm-frontpage .slide-excerpt-border {
 
 .home-bottom {
 	clear: both;
-	margin: 0 auto 0;
+	margin: 0 auto;
 	overflow: hidden;
 	padding: 40px 0 0;
 }
@@ -1432,11 +1437,93 @@ html > body.malcolm-frontpage .slide-excerpt-border {
 	padding: 15px;
 }
 
-.home-bottom-message {
+.pre-footer {
 	clear: both;
-	margin-bottom: 40px;
-	padding: 20px 0 0;
+	margin: 0 auto 0;
+	overflow: hidden;
+	padding: 40px 0 0;
 }
+
+.pre-footer .wrap {
+	clear: both;
+	margin: 0 auto;
+	width: 1160px;
+}
+
+.pre-footer ol,
+.pre-footer ul,
+.pre-footer p {
+	margin-bottom: 26px;
+}
+
+.pre-footer ol,
+.pre-footer ul {
+	margin-left: 40px;
+}
+
+.pre-footer ol li {
+	list-style-type: decimal;
+}
+
+.pre-footer ul li {
+	list-style-type: circle;
+}
+
+.pre-footer ol ol,
+.pre-footer ul ul {
+	margin-bottom: 0;
+}
+
+.pre-footer .entry {
+	border-bottom: 0;
+}
+
+.pre-footer .entry-title {
+	font-size: 16px;
+	margin-bottom: 24px;
+	text-transform: uppercase;
+}
+
+.pre-footer .featuredpost img,
+.pre-footer .featuredpage img {
+	border: none;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.pre-footer .featuredpost .alignleft img,
+.pre-footer .featuredpage .alignleft img {
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+.pre-footer .featuredpost .alignright img,
+.pre-footer .featuredpage .alignright img {
+	margin-bottom: 0;
+	margin-left: 20px;
+}
+
+.pre-footer .enews-widget input:hover[type="submit"] {
+	background-color: #333;
+	color: #fff;
+}
+
+.pre-footer .widget {
+	margin-bottom: 20px;
+	padding: 20px 0 20px;
+}
+
+.pre-footer-1 {
+	float: left;
+	margin-right: 5.555555555%;
+	width: 64.655172413%;
+}
+
+.pre-footer-2 {
+	float: right;
+	width: 29.629629629%;
+}
+
 
 /* Entries
 --------------------------------------------- */
@@ -2290,6 +2377,7 @@ Media Queries
 	.home-bottom .wrap,
 	.home-action .wrap,
 	.home-top-message .wrap,
+	.pre-footer .wrap,
 	.slider .wrap {
 		width: 90%;
 	}
@@ -2308,6 +2396,16 @@ Media Queries
 	.home-bottom-3	{
 		margin: 0 auto;
 		text-align: center;
+		width: 100%;
+	}
+
+	.pre-footer .widget {
+		padding: 0;
+	}
+
+	.pre-footer-1,
+	.pre-footer-2 {
+		margin: 0 auto;
 		width: 100%;
 	}
 
