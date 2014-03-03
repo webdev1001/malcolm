@@ -1147,6 +1147,10 @@ Site Navigation
 	z-index: 2000;
 }
 
+body.admin-bar .nav-primary {
+	top: 28px;
+}
+
 /* Secondary Navigation
 --------------------------------------------- */
 
