@@ -34,7 +34,7 @@ Additionally, Malcolm comes with 2 other widget areas, Before Post Block and Aft
 
 ## Widget Page Template
 
-BlogNews comes with a widget Page Template. To use it, publish an empty page, select the Widget Page Template from the drop down menu then start adding widgets
+Malcolm comes with a widget Page Template. To use it, publish an empty page, select the Widget Page Template from the drop down menu then start adding widgets
 to it. Refer to the Demo site for an example.
 
 ## Configuring the widgets as seen on the Demo site
@@ -45,17 +45,17 @@ Genesis Responsive Slider:
 
 2. Maximum Slider Height = 350
 
-3. Check Display Next / Previous Arrows in Slider?
+3. Check "Display Next/Previous Arrows" in Slider?
 
-4. Check Display Pagination in Slider?
+4. Check "Display Pagination" in Slider?
 
-5. Check Display Post/Page Title in Slider?
+5. Check "Display Post/Page Title" in Slider?
 
-6. Check Display Content in Slider?
+6. Check "Display Content" in Slider?
 
-7. Select Display post content from drop menu.
+7. Select "Display post content" from drop menu.
 
-8. Enter 100 into Limit content to text field.
+8. Enter 100 into "Limit content to" text field.
 
 9. Slider Excerpt Width = 50
 
