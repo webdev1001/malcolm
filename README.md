@@ -71,9 +71,9 @@ Home Action:
 
 1. Use a text widget. Configure as follows ... 
 
-<code>&lt;div class="three-fourths first"&gt;Draw the attention of your visitors to this "call to action" banner!&lt;/div&gt;
+<code>&lt;div class="three-fourths first"&gt;Draw the attention of your visitors to this "call to action" banner!&lt;/div&gt;</code>
 
-&lt;div class="one-fourth"&gt;&lt;a class="action-button alignright" href="#"&gt;Contact Us Today&lt;/a&gt;&lt;/div&gt;</code>
+<code>&lt;div class="one-fourth"&gt;&lt;a class="action-button alignright" href="#"&gt;Contact Us Today&lt;/a&gt;&lt;/div&gt;</code>
 
 Home Bottom 1, Home Bottom 2, Home Bottom 3:
 
