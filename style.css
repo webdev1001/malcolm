@@ -42,7 +42,6 @@
 	- Plugins
 		- Genesis eNews Extended
 		- Genesis Latest Tweets
-		- Gravity Forms
 		- Jetpack
 	- Site Header
 		- Title Area
@@ -52,16 +51,25 @@
 		- Primary Navigation
 		- Secondary Navigation
 	- Content Area
+		- Front Page
 		- Entries
+		- Content Boxes
+		- Gradient Buttons
 		- Pagination
+		- Single Post Pagination
+		- After Post Block / Before Post Block
 		- Comments
 	- Sidebars
 	- Footer Widgets
 	- Site Footer
+	- Genesis Widgetized Not Found & 404
+	- Widget Page
 	- Media Queries
-		- max-width: 1139px
+		- max-width: 1159px
 		- max-width: 1023px
+		- max-width: 768px
 		- max-width: 767px
+		- Responsive Navigation
 
 */
 
@@ -878,30 +886,6 @@ Plugins
 	margin-bottom: 16px;
 }
 
-/* Gravity Forms
---------------------------------------------- */
-
-div.gform_wrapper input[type="email"],
-div.gform_wrapper input[type="text"],
-div.gform_wrapper textarea,
-div.gform_wrapper .ginput_complex label {
-	font-size: 16px;
-	padding: 16px;
-}
-
-div.gform_wrapper .ginput_complex label {
-	padding: 0;
-}
-
-div.gform_wrapper li,
-div.gform_wrapper form li {
-	margin: 16px 0 0;
-}
-
-div.gform_wrapper .gform_footer input[type="submit"] {
-	font-size: 14px;
-}
-
 /* Jetpack
 --------------------------------------------- */
 
@@ -1177,7 +1161,7 @@ Site Navigation
 Content Area
 ---------------------------------------------------------------------------------------------------- */
 
-/* Home Page
+/* Front Page
 --------------------------------------------- */
 
 .slider {
