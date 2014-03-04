@@ -26,7 +26,7 @@ The frontpage features 8 custom widget areas:
 
 4. Home Bottom 1, Home Bottom 2 and Home Bottom 3. Use the Genesis Featured Page widgets here.
 
-5. Pre Footer 1. Use the Genesis Featured Posts widget here.
+5. Pre Footer 1. Use the Genesis Featured Posts widget or a text widget here.
 
 6. Pre Footer 2. You can use various widgets here such as the Genesis eNews plugin, Simple Social Icons plugin, Recent Posts widget, Search widget etc.
 
@@ -34,7 +34,7 @@ Additionally, Malcolm comes with 2 other widget areas, Before Post Block and Aft
 
 ## Widget Page Template
 
-Malcolm comes with a widget Page Template. To use it, publish an empty page, select the Widget Page Template from the drop down menu then start adding widgets
+Malcolm comes with a widget Page Template. To use it, publish an empty page using the Widget Page Template from the drop down menu then start adding widgets
 to it. Refer to the Demo site for an example.
 
 ## Configuring the widgets as seen on the Demo site
@@ -111,6 +111,9 @@ Pre Footer 2:
 
 Use various widgets here, text widget, search widget etc. Demo site uses Genesis eNews and Simple Social Icon plugins.
 
+Additionally, the Archive Page and 404 Error Page of the demo site makes use of 2 plugins which allows you to add content to those pages via widgets.
+Those plugins are listed further down this page under the section Recommended Plugins.
+
 ## Content Boxes:
 
 The custom content boxes make use of DIV classes. For example ...
@@ -160,11 +163,15 @@ Genesis > Theme Settings and select "Image logo" from the drop down menu.
 
 ## Further
 
-coming soon
+1. [Theme Release Page](http://wpcanada.ca/our-themes/malcolm/)
+
+2. [Theme Demo](http://demo.wpcanada.ca/malcolm/)
+
+3. Download from [GitHub](https://github.com/lenkutchma/malcolm)
 
 ## Bug Reports
 
-coming soon
+https://github.com/lenkutchma/malcolm/issues
 
 ## Support
 
