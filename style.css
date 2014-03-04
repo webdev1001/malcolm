@@ -2263,6 +2263,11 @@ Widget Page
 	margin-bottom: 0;
 }
 
+.malcolm-widget-page .featured-content .entry {
+	margin-bottom: 0;
+	padding: 0;
+}
+
 .malcolm-widget-page .entry {
 	border-bottom: 0;
 }
