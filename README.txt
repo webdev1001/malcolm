@@ -4,7 +4,7 @@ INSTALLATION
 
 	1. Upload the Malcolm child theme folder via FTP to your wp-content/themes/ directory. (The Genesis parent theme needs to be in the wp-content/themes/ directory as well).
 	2. Go to your WordPress dashboard and select Appearance.
-	3. Activate the BlogNews child theme.
+	3. Activate the Malcolm child theme.
 	4. Inside your WordPress dashboard, go to Genesis > Theme Settings and configure them to your liking.
 
 Note: After you download and unarchive the theme from GitHub, you may want to rename the malcolm-master folder to malcolm.
