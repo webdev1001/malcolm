@@ -1,0 +1,9 @@
+*** Malcolm Changelog ***
+
+04 MARCH 2014 - version 1.0.0
+	* initial release
+
+22 MARCH 2014 - version 1.0.1
+	* fixed error related to dashicon integration - get_stylesheet_directory_uri() changed to get_stylesheet_uri() in functions.php
+	* bumped theme version
+	* added changelog

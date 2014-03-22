@@ -8,7 +8,7 @@ load_child_theme_textdomain( 'malcolm', apply_filters( 'child_theme_textdomain',
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Malcolm Theme', 'malcolm' ) );
 define( 'CHILD_THEME_URL', 'http://wpcanada.ca/our-themes/malcolm' );
-define( 'CHILD_THEME_VERSION', '1.0.0' );
+define( 'CHILD_THEME_VERSION', '1.0.1' );
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5' );
@@ -27,7 +27,7 @@ function malcolm_enqueue_scripts() {
 
 	wp_enqueue_script( 'malcolm-responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0', true );
 	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,700', array(), CHILD_THEME_VERSION );
-	wp_enqueue_style( 'malcolm-dashicons-style', get_stylesheet_directory_uri(), array('dashicons'), '1.0' );
+	wp_enqueue_style( 'malcolm-dashicons-style', get_stylesheet_uri(), array('dashicons'), '1.0' );
 
 }
 
