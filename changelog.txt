@@ -7,3 +7,7 @@
 	* fixed error related to dashicon integration - get_stylesheet_directory_uri() changed to get_stylesheet_uri() in functions.php
 	* bumped theme version
 	* added changelog
+
+28 MARCH 2014 - version 1.0.2
+	* fixed error in style sheet
+	* deleted redundant declaration from style sheet

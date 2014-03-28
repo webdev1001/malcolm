@@ -5,7 +5,7 @@
 	Author: WPCanada
 	Author URI: http://wpcanada.ca/
 
-	Version: 1.0.1
+	Version: 1.0.2
  
 	Tags: black, blue, white, one-column, two-columns, three-columns, fixed-width, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
  
@@ -1100,12 +1100,15 @@ Site Navigation
 .genesis-nav-menu > .rss a::before,
 .genesis-nav-menu > .twitter::before {
 	color: #999;
-	content: "\f303";
 	display: inline-block;
 	font: normal 20px/1 'dashicons';
 	margin-right: 5px;
 	vertical-align: top;
 	-webkit-font-smoothing: antialiased;
+}
+
+.genesis-nav-menu > .rss::before {
+	content: "\f303";
 }
 
 .genesis-nav-menu > .twitter::before {
@@ -2456,10 +2459,6 @@ Media Queries
 
 	.site-header .search-form {
 		margin: 16px auto;
-	}
-
-	.genesis-nav-menu li.right {
-		/*display: none;*/
 	}
 
 	.entry-footer .entry-meta {
