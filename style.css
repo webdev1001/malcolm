@@ -1107,7 +1107,7 @@ Site Navigation
 	-webkit-font-smoothing: antialiased;
 }
 
-.genesis-nav-menu > .rss::before {
+.genesis-nav-menu > .rss a::before {
 	content: "\f303";
 }
 
