@@ -87,7 +87,7 @@ function malcolm_breadcrumb_args( $args ) {
 }
 
 //* Add single post navigation
-add_action( 'genesis_before_comments', 'genesis_prev_next_post_nav' );
+add_action( 'genesis_entry_footer', 'genesis_prev_next_post_nav' );
 
 //* Customize the post info function
 add_filter( 'genesis_post_info', 'post_info_filter' );

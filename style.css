@@ -1939,6 +1939,14 @@ a.button-red:hover {
 	margin-bottom: 20px;
 }
 
+.pagination-previous.alignleft {
+	padding-right: 20px;
+}
+
+.pagination-previous.alignright {
+	padding-left: 20px;
+}
+
 /* After Post Block - Before Post Block
 --------------------------------------------- */
 
