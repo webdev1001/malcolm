@@ -16,7 +16,7 @@ After you download and unarchive the theme from GitHub, you may want to rename t
 
 ## Widgets
 
-The frontpage features 8 custom widget areas:
+The frontpage features 9 custom widget areas:
 
 1. Slider. For use with the Genesis Responsive Slider plugin.
 
@@ -29,6 +29,8 @@ The frontpage features 8 custom widget areas:
 5. Pre Footer 1. Use the Genesis Featured Posts widget or a text widget here.
 
 6. Pre Footer 2. You can use various widgets here such as the Genesis eNews plugin, Simple Social Icons plugin, Recent Posts widget, Search widget etc.
+
+7. Malcolm Footer. This new widget area replaces the default footer.
 
 Additionally, Malcolm comes with 2 other widget areas, Before Post Block and After Post Block. They appear before/after posts on single post pages.
 
@@ -110,6 +112,12 @@ Pre Footer 1:
 Pre Footer 2:
 
 Use various widgets here, text widget, search widget etc. Demo site uses Genesis eNews and Simple Social Icon plugins.
+
+Malcolm Footer:
+
+This new widget area replaces the default footer and makes editing the footer area super easy. Simply add whatever text you want including HTML to a text widget and pop it into the Malcolm Footer widget area. You can even use the Simple Social Icons plugin here if you want.
+
+If you're using some text here be sure to tick the box that says "Automatically add paragraphs".
 
 Additionally, the Archive Page and 404 Error Page of the demo site makes use of 2 plugins which allows you to add content to those pages via widgets.
 Those plugins are listed further down this page under the section Recommended Plugins.

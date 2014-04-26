@@ -11,3 +11,6 @@
 28 MARCH 2014 - version 1.0.2
 	* fixed error in style sheet
 	* deleted redundant declaration from style sheet
+
+25 APR 2014 - version 1.1.0
+	* replaced default footer with new widget area

@@ -8,7 +8,7 @@ load_child_theme_textdomain( 'malcolm', apply_filters( 'child_theme_textdomain',
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Malcolm Theme', 'malcolm' ) );
 define( 'CHILD_THEME_URL', 'http://wpcanada.ca/our-themes/malcolm' );
-define( 'CHILD_THEME_VERSION', '1.0.2' );
+define( 'CHILD_THEME_VERSION', '1.1.0' );
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5' );
@@ -97,6 +97,17 @@ if ( !is_page() ) {
 	return $post_info;
 }}
 
+//* Unhook Genesis footer and add custom widget area
+remove_action( 'genesis_footer', 'genesis_do_footer' );
+add_action( 'genesis_footer', 'malcolm_footer' );
+function malcolm_footer() {
+                genesis_widget_area( 'malcolm_footer', array(
+		'before' => '<div class="malcolm_footer widget-area">',
+		'after'  => '</div>',
+    ) );
+
+}
+
 //* Register widget areas
 genesis_register_sidebar( array(
 	'id'		=> 'slider',
@@ -152,4 +163,9 @@ genesis_register_sidebar( array(
 	'id'		=> 'widget-page',
 	'name'		=> __( 'Widget Page', 'malcolm' ),
 	'description'	=> __( 'This is the Widget Page template.', 'malcolm' ),
+) );
+genesis_register_sidebar( array(
+	'id'		=> 'malcolm_footer',
+	'name'		=> __( 'Malcolm Footer', 'malcolm' ),
+	'description'	=> __( 'This is the custom footer area.', 'malcolm' ),
 ) );
