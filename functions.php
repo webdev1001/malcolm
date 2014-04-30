@@ -8,7 +8,7 @@ load_child_theme_textdomain( 'malcolm', apply_filters( 'child_theme_textdomain',
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Malcolm Theme', 'malcolm' ) );
 define( 'CHILD_THEME_URL', 'http://wpcanada.ca/our-themes/malcolm' );
-define( 'CHILD_THEME_VERSION', '1.1.0' );
+define( 'CHILD_THEME_VERSION', '1.1.1' );
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5' );
@@ -87,7 +87,7 @@ function malcolm_breadcrumb_args( $args ) {
 }
 
 //* Add single post navigation
-add_action( 'genesis_entry_footer', 'genesis_prev_next_post_nav' );
+add_action( 'genesis_after_entry', 'genesis_prev_next_post_nav', 9 );
 
 //* Customize the post info function
 add_filter( 'genesis_post_info', 'post_info_filter' );

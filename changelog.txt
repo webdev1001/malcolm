@@ -15,3 +15,6 @@
 25 APR 2014 - version 1.1.0
 	* replaced default footer with new widget area
 	* changed hook for single post navigation and adjusted styling
+
+30 APR 2014 - version 1.1.1
+	* changed hook for single post navigation
