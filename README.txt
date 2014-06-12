@@ -124,6 +124,6 @@ BUG REPORTS
 	https://github.com/lenkutchma/malcolm/issues
 
 SUPPORT
-	The Malcolm child theme is offered without support and is intended for users who are knowledgeable with WordPress and the Genesis Framework.
+	Support is limited to helping you get your theme up and running just like you see on the demo site. Support does not include customizations.
 
 Enjoy!
