@@ -126,7 +126,7 @@ Those plugins are listed further down this page under the section Recommended Pl
 
 As of Genesis 2.1, the Primary Navigation Extras options have been removed for new installs. (upgrades of current installs to 2.1 will not lose the Primary Navigation Extras settings) The prefered method of adding custom links like Twitter or RSS is to use a custom menu item and give it a CSS class of right.
 
-In this version of Malcolm, images have been dropped for Twitter & RSS links in favour of Genericons icon fonts. The list of supported icon fonts are:
+In this version of Malcolm, Dashicons have been dropped for Twitter & RSS links in favour of Genericons icon fonts. The list of supported icon fonts are:
 
 1. Dribble
 2. Email
