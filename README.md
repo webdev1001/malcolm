@@ -32,7 +32,7 @@ The frontpage features 9 custom widget areas:
 
 7. Malcolm Footer. This new widget area replaces the default footer.
 
-Additionally, Malcolm comes with 2 other widget areas, Before Post Block and After Post Block. They appear before/after posts on single post pages.
+Additionally, Malcolm comes with 2 other widget areas, Before Entry and After Entry. They appear before/after posts on single post pages.
 
 ## Widget Page Template
 
@@ -122,6 +122,29 @@ If you're using some text here be sure to tick the box that says "Automatically 
 Additionally, the Archive Page and 404 Error Page of the demo site makes use of 2 plugins which allows you to add content to those pages via widgets.
 Those plugins are listed further down this page under the section Recommended Plugins.
 
+## Primary Navigation Extras
+
+As of Genesis 2.1, the Primary Navigation Extras options have been removed for new installs. (upgrades of current installs to 2.1 will not lose the Primary Navigation Extras settings) The prefered method of adding custom links like Twitter or RSS is to use a custom menu item and give it a CSS class of right.
+
+In this version of Malcolm, images have been dropped for Twitter & RSS links in favour of Genericons icon fonts. The list of supported icon fonts are:
+
+1. Dribble
+2. Email
+3. Facebook
+4. Flickr
+5. GitHub
+6. Google+
+7. Instagram
+8. LinkedIn
+9. Pinterest
+10. Tumblr
+11. Twitter
+12. Vimeo
+13. WordPress
+14. YouTube
+
+For example, to add a Twitter link, add a custom link to your menu and in the CSS Classes input field enter right twitter. Refer to the theme docs for details.
+
 ## Content Boxes:
 
 The custom content boxes make use of DIV classes. For example ...
@@ -173,9 +196,11 @@ Genesis > Theme Settings and select "Image logo" from the drop down menu.
 
 1. [Theme Release Page](http://wpcanada.ca/our-themes/malcolm/)
 
-2. [Theme Demo](http://demo.wpcanada.ca/malcolm/)
+2. [Theme Documentation](http://docs.wpcanada.ca/docs/malcolm/)
 
-3. Download from [GitHub](https://github.com/lenkutchma/malcolm)
+3. [Theme Demo](http://demo.wpcanada.ca/malcolm/)
+
+4. Download from [GitHub](https://github.com/lenkutchma/malcolm)
 
 ## Bug Reports
 
