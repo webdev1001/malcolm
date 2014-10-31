@@ -15,9 +15,9 @@ Template Name: Landing
 add_filter( 'body_class', 'malcolm_add_body_class' );
 function malcolm_add_body_class( $classes ) {
 
-   $classes[] = 'malcolm-landing';
-   return $classes;
-   
+	$classes[] = 'malcolm-landing';
+	return $classes;
+
 }
 
 //* Force full width content layout
@@ -31,6 +31,7 @@ remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
 //* Remove navigation
 remove_action( 'genesis_before_header', 'genesis_do_nav' );
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );
+remove_action( 'genesis_before_footer', 'genesis_do_subnavtwo' );
 
 //* Remove breadcrumbs
 remove_action( 'genesis_after_header', 'genesis_do_breadcrumbs' );
@@ -42,7 +43,6 @@ remove_action( 'genesis_before_footer', 'genesis_footer_widget_areas' );
 remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
 remove_action( 'genesis_footer', 'genesis_do_footer' );
 remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
-remove_action( 'genesis_footer', 'malcolm_footer' );
 
 //* Run the Genesis loop
 genesis();

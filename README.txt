@@ -7,19 +7,21 @@ INSTALLATION
 	3. Activate the Malcolm child theme.
 	4. Inside your WordPress dashboard, go to Genesis > Theme Settings and configure them to your liking.
 
-Note: After you download and unarchive the theme from GitHub, you may want to rename the malcolm-master folder to malcolm.
+Note: After you download and unarchive the theme from GitHub, you may want to rename the malcolm-master folder to malcolm. (optional)
 
 WIDGETS
 
 The frontpage features 9 custom widget areas:
 
 	1. Slider. For use with the Genesis Responsive Slider plugin.
-	2. Home Top Message. Use a text widget here to display a welcome message etc.
+	2. Home Top Message. Use a text widget here to display a welcome message etc. You could also use the Genesis Featured Posts widget or Genesis eNews Extended widget.
 	3. Home Action. Use a text widget here to display the "call to action" banner.
-	4. Home Bottom 1, Home Bottom 2 and Home Bottom 3. Use the Genesis Featured Page widgets here.
-	5. Pre Footer 1. Use the Genesis Featured Posts widget or a text widget here.
-	6. Pre Footer 2. You can use various widgets here such as the Genesis eNews plugin, Simple Social Icons plugin, Recent Posts widget, Search widget etc.
-	7. Malcolm Footer. This new widget area replaces the default footer.
+	4. Home Middle 1. Use the Genesis Featured Page widgets here. You could also use Genesis Featured Posts widget.
+	5. Home Middle 2. Use the Genesis Featured Page widgets here. You could also use Genesis Featured Posts widget.
+	6. Home Middle 3. Use the Genesis Featured Page widgets here. You could also use Genesis Featured Posts widget.
+	7. Home Signup. For use with the Genesis eNews Extended widget.
+	8. Pre Footer 1. Use the Genesis Featured Posts widget. You could also use a text widget or Genesis eNews Extended widget.
+	9. Pre Footer 2. You can use various widgets here such as the Genesis eNews Extended plugin, Simple Social Icons plugin, Recent Posts widget, Search widget etc.
 
 Additionally, Malcolm comes with 2 other widget areas, Before Entry and After Entry. They appear before/after posts on single post pages.
 
@@ -43,41 +45,50 @@ Genesis Responsive Slider:
 	11. Excerpt Location horizontal = Left
 
 Home Top Message:
-	Use a text widget. No special configuration.
+	Text widget. No special configuration.
+	Genesis eNews Extended widget. Configure as you normally would.
+	Genesis Featured Posts widget. For image size choose featured-post (100x100). For image alignment choose left or right if using featured image.
 
 Home Action:
 	Use a text widget. Configure as follows ... 
 
 	<div class="three-fourths first">Draw the attention of your visitors to this "call to action" banner!</div>
 
-	<div class="one-fourth"><a class="action-button alignright" href="#">Contact Us Today</a></div>
+	<div class="one-fourth"><a class="button alignright" href="#">Contact Us Today</a></div>
 
-Home Bottom 1, Home Bottom 2, Home Bottom 3:
+Home Middle 1, Home Middle 2, Home Middle 3:
+	Genesis Featured Page widget
 	1. Enter title and select the page you want featured from the drop down menu.
 	2. Check "Show Featured Image"
-	3. Select "feature-page (340x160)" image size from drop down menu. Choose "None" for Image Alignment.
+	3. Select "feature-page (346x150)" image size from drop down menu. Choose "None" for Image Alignment.
 	4. Check "Show Page Content" and enter number in "Content Character Limit" field. Demo site uses 200.
 	5. Enter some text in "More Text" field. Demo site uses read more.
 
+	Genesis Featured Posts widget
+	1. Enter title.
+	2. Number of Posts to Show: 1
+	3. Check "Show Featured Image"
+	4. Select "feature-page (346x150)" image size from drop down menu. Choose "None" for Image Alignment.
+	5. Select "Show Content Limit" from drop down menu and enter number in "Limit content to x character" field. Demo site uses 200.
+	6. Enter some text in "More Text" field. Demo site uses read more.
+
+Home Signup:
+	For exclusive use with Genesis eNews Extended widget. Make sure to display only the email field.
+
 Pre Footer 1:
+	Genesis Featured Posts widget
 	1. Select Category from drop down menu.
-	2. Enter number of posts you would like to show. Demo site uses 2.
+	2. Number of Posts to Show: Whatever you like.
 	3. Check "Show Featured Image" box.
-	4. Select "featured-post (100x100)" image size or "thumbnail (150x150)" image size.
+	4. Select "featured-post (100x100)" image size or "mini-square (80x80)" image size.
 	5. Image Alignment, choose left or right from the drop down menu.
 	6. Check "Show Post Title". Optional - check "Show Post Info"
 	7. Select "Show Content Limit" from drop down menu.
-	8. Enter number of characters in "Limit content to" box. Demo site uses 450.
-	9. Enter text in "More Text" field. Demo site uses [Read More ...]
+	8. Enter number of characters in "Limit content to" box. Demo site uses 200.
+	9. Enter text in "More Text" field. Demo site uses read more.
 
 Pre Footer 2:
-	Use various widgets here, text widget, search widget etc. Demo site uses Genesis eNews and Simple Social Icon plugins.
-
-Malcolm Footer
-	This new widget area replaces the default footer and makes editing the footer area super easy. Simply add whatever text you want including HTML to a text widget and pop it into
-	the Malcolm Footer widget area. You can even use the Simple Social Icons plugin here if you want.
-
-	If you're using some text here be sure to tick the box that says "Automatically add paragraphs".
+	Use various widgets here, text widget, search widget etc. Demo site uses Genesis eNews Extended and Simple Social Icon plugins.
 
 Additionally, the Archive Page and 404 Error Page of the demo site makes use of 2 plugins which allows you to add content to those pages via widgets.
 Those plugins are listed further down this page under the section Recommended Plugins.
@@ -88,15 +99,20 @@ PRIMARY NAVIGATION EXTRAS
 
 	In this version of Malcolm, Dashicons have been dropped for Twitter & RSS links in favour of Genericons icon fonts. The list of supported icon fonts are:
 
+	- codepen
 	- dribble
 	- email
 	- facebook
 	- flickr
+	- foursquare
 	- github
 	- googleplus
 	- instagram
 	- linkedin
 	- pinterest
+	- reddit
+	- rss
+	- stumbleupon
 	- tumblr
 	- twitter
 	- vimeo
@@ -110,7 +126,7 @@ CONTENT BOXES
 
 	<div class="content-box-blue">some random text</div>
 
-	There are 7 styles to choose from. Refer to the style sheet for details.
+	There are 8 styles to choose from. Refer to the style sheet for details.
 
 GRADIENT BUTTONS
 	Each button has a unique class. For example ...
@@ -135,7 +151,7 @@ CREDIT
 	1. Content Boxes by StudioPress - http://www.studiopress.com/design/colored-content-boxes-buttons.htm/
 	2. Gradient Buttons by StudioPress - http://www.studiopress.com/design/colored-content-boxes-buttons.htm/
 	3. Icons for eNews and Search input fields by iconmonstr - http://iconmonstr.com/
-	4. Responsive Menus by Ozzy Rodriguez - http://wpbacon.com/tutorials/genesis-responsive-menu-2-0/
+	4. Responsive Menus by Ozzy Rodriguez - http://ozzyrodriguez.com/tutorials/genesis/genesis-responsive-menu-2-0/
 	5. Based on ThemeCore by Brad Potter https://github.com/bradpotter/themecore/
 
 FURTHER

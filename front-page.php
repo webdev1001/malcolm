@@ -18,11 +18,12 @@ add_action( 'genesis_meta', 'malcolm_home_genesis_meta' );
  */
 function malcolm_home_genesis_meta() {
 
-	if ( is_active_sidebar( 'slider' ) || is_active_sidebar( 'home-top-message' ) || is_active_sidebar( 'home-action' ) || is_active_sidebar( 'home-bottom-1' ) || is_active_sidebar( 'home-bottom-2' ) || is_active_sidebar( 'home-bottom-3' ) || is_active_sidebar( 'pre-footer-1' ) || is_active_sidebar( 'pre-footer-2' ) ) {
+	if ( is_active_sidebar( 'slider' ) || is_active_sidebar( 'home-top-message' ) || is_active_sidebar( 'home-action' ) || is_active_sidebar( 'home-middle-1' ) || is_active_sidebar( 'home-middle-2' ) || is_active_sidebar( 'home-middle-3' ) || is_active_sidebar( 'home-signup' ) ||is_active_sidebar( 'pre-footer-1' ) || is_active_sidebar( 'pre-footer-2' ) ) {
 
 		remove_action( 'genesis_loop', 'genesis_do_loop' );
 		add_action( 'genesis_after_header', 'malcolm_home_loop_helper_top' );
-		add_action( 'genesis_after_header', 'malcolm_home_loop_helper_bottom' );
+		add_action( 'genesis_after_header', 'malcolm_home_loop_helper_middle' );
+		add_action( 'genesis_after_header', 'malcolm_home_loop_helper_signup' );
 		add_action( 'genesis_after_header', 'malcolm_home_loop_helper_prefooter' );
 		add_filter( 'body_class', 'malcolm_body_class' );
 		add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
@@ -38,7 +39,7 @@ function malcolm_body_class( $classes ) {
 
 	$classes[] = 'malcolm-frontpage';
 	return $classes;
-	
+
 }
 
 /**
@@ -64,33 +65,45 @@ function malcolm_home_loop_helper_top() {
 }
 
 /**
- * Display widget content for "home bottom #1", "home bottom #2" and "home bottom #3" sections.
+ * Display widget content for "home middle #1", "home middle #2" and "home middle #3" sections.
  *
  */
-function malcolm_home_loop_helper_bottom() {
+function malcolm_home_loop_helper_middle() {
 
-	 if ( is_active_sidebar( 'home-bottom-1' ) || is_active_sidebar( 'home-bottom-2' ) || is_active_sidebar( 'home-bottom-3' ) ) {
+	 if ( is_active_sidebar( 'home-middle-1' ) || is_active_sidebar( 'home-middle-2' ) || is_active_sidebar( 'home-middle-3' ) ) {
 
-			echo '<div class="home-bottom"><div class="wrap">';
+			echo '<div class="home-middle"><div class="wrap">';
 
-			genesis_widget_area( 'home-bottom-1', array(
-				'before' => '<div class="home-bottom-1">',
+			genesis_widget_area( 'home-middle-1', array(
+				'before' => '<div class="home-middle-1 widget-area one-third first">',
 				'after' => '</div>',
 			) );
 
-			genesis_widget_area( 'home-bottom-2', array(
-				'before' => '<div class="home-bottom-2">',
+			genesis_widget_area( 'home-middle-2', array(
+				'before' => '<div class="home-middle-2 widget-area one-third">',
 				'after' => '</div>',
 			) );
 
-			genesis_widget_area( 'home-bottom-3', array(
-				'before' => '<div class="home-bottom-3">',
+			genesis_widget_area( 'home-middle-3', array(
+				'before' => '<div class="home-middle-3 widget-area one-third">',
 				'after' => '</div>',
 			) );
 
-			echo '</div><!-- end .wrap --></div><!-- end .home-bottom -->';
+			echo '</div><!-- end .wrap --></div><!-- end .home-middle -->';
 
 	}
+}
+
+/**
+ * Display widget content for "home signup" section.
+ *
+ */
+function malcolm_home_loop_helper_signup() {
+
+		genesis_widget_area( 'home-signup', array(
+			'before' => '<div class="home-signup"><div class="wrap">',
+			'after' => '</div></div>',
+		) );
 }
 
 /**
@@ -104,12 +117,12 @@ function malcolm_home_loop_helper_prefooter() {
 			echo '<div class="pre-footer"><div class="wrap">';
 
 			genesis_widget_area( 'pre-footer-1', array(
-				'before' => '<div class="pre-footer-1">',
+				'before' => '<div class="pre-footer-1 widget-area two-thirds first">',
 				'after' => '</div>',
 			) );
 
 			genesis_widget_area( 'pre-footer-2', array(
-				'before' => '<div class="pre-footer-2">',
+				'before' => '<div class="pre-footer-2 widget-area one-third">',
 				'after' => '</div>',
 			) );
 

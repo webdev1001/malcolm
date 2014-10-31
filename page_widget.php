@@ -30,12 +30,12 @@ function malcolm_page_loop_helper() {
 	if ( is_active_sidebar( 'widget-page' ) ) {
 
 		dynamic_sidebar( 'widget-page' );
-		
+
 	}
 	else {
 		genesis_standard_loop();
 	}
-	
+
 }
 
 genesis();

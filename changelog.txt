@@ -24,3 +24,19 @@
 	* replaced code for after post widget area with the new built-in Genesis function add_theme_support( 'genesis-after-entry-widget-area' );
 	* renamed Before Post Block widget area to Before Entry for consistency
 	* misc css adjustments
+
+31 OCT 2014 - version 2.0.0
+	* added Home Signup widget area to front-page.php
+	* Home Bottom 1, Home Bottom 2 and Home Bottom 3 widget areas renamed to Home Middle 1, Home Middle 2 and Home Middle 3
+	* Home Middle 1/2/3 widget areas now make use of built in Genesis column classes
+	* Pre Footer 1 & 2 widget areas now make use of built in Genesis column classes
+	* integrated Genericons for social media links in Primary Navigation Menu
+	* changed width of featured-post image
+	* added additional image size mini-square 80x80
+	* removed custom footer
+	* added filter for modifying comment form
+	* added filter for modifying search form placeholder text
+	* added Tertiary Navigation Menu
+	* changed title font from Oswald to Dosis
+	* numerous CSS adjustments
+	* reorganized theme folder structure

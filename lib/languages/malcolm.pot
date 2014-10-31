@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Malcolm\n"
-"POT-Creation-Date: 2014-07-01 19:07-0600\n"
-"PO-Revision-Date: 2014-07-01 19:07-0600\n"
+"POT-Creation-Date: 2014-10-31 16:30-0600\n"
+"PO-Revision-Date: 2014-10-31 16:31-0600\n"
 "Last-Translator: Len Kutchma <lkutchma@gmail.com>\n"
 "Language-Team: WPCanada <lkutchma@gmail.com>\n"
 "Language: English\n"
@@ -18,90 +18,114 @@ msgstr ""
 msgid "Malcolm Theme"
 msgstr ""
 
-#: ../../functions.php:103
-msgid "Slider"
+#: ../../functions.php:98
+msgid "Join the Discussion!"
 msgstr ""
 
-#: ../../functions.php:104
-msgid "This is the Slider section of the homepage."
+#: ../../functions.php:99
+msgid "Please submit your comment with a real name."
 msgstr ""
 
-#: ../../functions.php:108
-msgid "Home Top Message"
-msgstr ""
-
-#: ../../functions.php:109
-msgid "This is the Home Top Message section of the homepage."
-msgstr ""
-
-#: ../../functions.php:113
-msgid "Home Action"
-msgstr ""
-
-#: ../../functions.php:114
-msgid "This is the Home Action section of the homepage."
-msgstr ""
-
-#: ../../functions.php:118
-msgid "Home Bottom 1"
+#: ../../functions.php:100
+msgid "Thanks for your feedback!"
 msgstr ""
 
 #: ../../functions.php:119
-msgid "This is the Home Bottom 1 section of the homepage."
+msgid "Primary Navigation Menu"
 msgstr ""
 
-#: ../../functions.php:123
-msgid "Home Bottom 2"
+#: ../../functions.php:119
+msgid "Secondary Navigation Menu"
+msgstr ""
+
+#: ../../functions.php:119
+msgid "Tertiary Navigation Menu"
 msgstr ""
 
 #: ../../functions.php:124
-msgid "This is the Home Bottom 2 section of the homepage."
+msgid "Slider"
 msgstr ""
 
-#: ../../functions.php:128
-msgid "Home Bottom 3"
+#: ../../functions.php:125
+msgid "This is the Slider section of the homepage."
 msgstr ""
 
 #: ../../functions.php:129
-msgid "This is the Home Bottom 3 section of the homepage."
+msgid "Home Top Message"
 msgstr ""
 
-#: ../../functions.php:133
-msgid "Pre Footer 1"
+#: ../../functions.php:130
+msgid "This is the Home Top Message section of the homepage."
 msgstr ""
 
 #: ../../functions.php:134
-msgid "This is the Pre Footer 1 section of the homepage."
+msgid "Home Action"
 msgstr ""
 
-#: ../../functions.php:138
-msgid "Pre Footer 2"
+#: ../../functions.php:135
+msgid "This is the Home Action section of the homepage."
 msgstr ""
 
 #: ../../functions.php:139
-msgid "This is the Pre Footer 2 section of the homepage."
+msgid "Home Middle 1"
 msgstr ""
 
-#: ../../functions.php:143
-msgid "Before Entry"
+#: ../../functions.php:140
+msgid "This is the Home Middle 1 section of the homepage."
 msgstr ""
 
 #: ../../functions.php:144
-msgid "Widgets in this widget area will display before single entries."
+msgid "Home Middle 2"
 msgstr ""
 
-#: ../../functions.php:148
-msgid "Widget Page"
+#: ../../functions.php:145
+msgid "This is the Home Middle 2 section of the homepage."
 msgstr ""
 
 #: ../../functions.php:149
-msgid "This is the Widget Page template."
+msgid "Home Middle 3"
 msgstr ""
 
-#: ../../functions.php:153
-msgid "Malcolm Footer"
+#: ../../functions.php:150
+msgid "This is the Home Middle 3 section of the homepage."
 msgstr ""
 
 #: ../../functions.php:154
-msgid "This is the custom footer area."
+msgid "Home Signup"
+msgstr ""
+
+#: ../../functions.php:155
+msgid "This is the Home Signup section of the homepage."
+msgstr ""
+
+#: ../../functions.php:159
+msgid "Pre Footer 1"
+msgstr ""
+
+#: ../../functions.php:160
+msgid "This is the Pre Footer 1 section of the homepage."
+msgstr ""
+
+#: ../../functions.php:164
+msgid "Pre Footer 2"
+msgstr ""
+
+#: ../../functions.php:165
+msgid "This is the Pre Footer 2 section of the homepage."
+msgstr ""
+
+#: ../../functions.php:169
+msgid "Before Entry"
+msgstr ""
+
+#: ../../functions.php:170
+msgid "Widgets in this widget area will display before single entries."
+msgstr ""
+
+#: ../../functions.php:174
+msgid "Widget Page"
+msgstr ""
+
+#: ../../functions.php:175
+msgid "This is the Widget Page template."
 msgstr ""
